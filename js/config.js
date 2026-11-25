@@ -10,10 +10,10 @@ window.SITE_CONFIG = {
     name: 'Jaxon G Photography',
     domain: 'https://jaxongphotography.com',
     tagline: 'Photography that holds the moment.',
-    email: 'REPLACE-ME@example.com',   // REPLACE with your real inquiry email
-    phone: '',                          // optional, e.g. '(859) 555-0100'
+    email: 'jaxon.gallagher71510@gmail.com',   // REPLACE with your real inquiry email
+    phone: '(606) 516-0443',                          // optional, e.g. '(859) 555-0100'
     /* ---- 2. SERVICE AREA (used in footer + SEO text; edit freely) ---- */
-    serviceArea: 'REPLACE: your city/region, e.g. "Lexington, KY and nearby"'
+    serviceArea: 'Monticello, KY and nearby"'
   },
 
   /* ---- 3. SOCIAL LINKS (paste full profile URLs; '' hides the link) ---- */
@@ -54,24 +54,24 @@ window.SITE_CONFIG = {
       { name: 'Tour',      price: 90, from: false, time: '2 hours, 3 locations', confirmed: true, desc: 'Three settings, three different looks.', inc: ['3 locations', 'Edited digital gallery'] }
     ],
     sports: [
-      { name: 'Game Day',   price: 85,  from: false, time: 'One game',        confirmed: false, desc: 'Action coverage of a single game.',        inc: ['Up to 2 hours on site', 'Edited action gallery', 'Online delivery'] },
-      { name: 'Tournament', price: 175, from: false, time: 'Full day',        confirmed: false, desc: 'Every game and moment of a tournament.',   inc: ['Up to 8 hours on site', 'Team and individual shots', 'Online delivery'] },
-      { name: 'Season',     price: 400, from: true,  time: 'Multiple games',  confirmed: false, desc: 'Coverage built around your season.',       inc: ['Several games', 'Team photo day', 'Online delivery'] }
+      { name: 'Game Day',   price: 40,  from: false, time: 'One game',        confirmed: true, desc: 'Action coverage of a single game.',        inc: ['Up to 2 hours on site', 'Edited action gallery', 'Online delivery'] },
+      { name: 'Tournament', price: 175, from: false, time: 'Full day',        confirmed: true, desc: 'Every game and moment of a tournament.',   inc: ['Up to 8 hours on site', 'Team and individual shots', 'Online delivery'] },
+      { name: 'Season',     price: 400, from: true,  time: 'Multiple games',  confirmed: true, desc: 'Coverage built around your season.',       inc: ['Several games', 'Team photo day', 'Online delivery'] }
     ],
     event: [
-      { name: 'Quick Coverage', price: 120, from: false, time: '1 hour',    confirmed: false, desc: 'Key moments from a short event.',       inc: ['Edited gallery', 'Online delivery'] },
-      { name: 'Full Event',     price: 200, from: false, time: '2 hours',   confirmed: false, desc: 'Complete coverage of most events.',     inc: ['Edited gallery', 'Online delivery'] },
-      { name: 'Half Day',       price: 350, from: false, time: '4 hours',   confirmed: false, desc: 'Longer events and multi-part days.',    inc: ['Edited gallery', 'Online delivery'] }
+      { name: 'Quick Coverage', price: 120, from: false, time: '1 hour',    confirmed: true, desc: 'Key moments from a short event.',       inc: ['Edited gallery', 'Online delivery'] },
+      { name: 'Full Event',     price: 200, from: false, time: '2 hours',   confirmed: true, desc: 'Complete coverage of most events.',     inc: ['Edited gallery', 'Online delivery'] },
+      { name: 'Half Day',       price: 350, from: false, time: '4 hours',   confirmed: true, desc: 'Longer events and multi-part days.',    inc: ['Edited gallery', 'Online delivery'] }
     ],
     commercial: [
-      { name: 'Headshot',  price: 90,  from: false, time: '30 minutes', confirmed: false, desc: 'Professional headshots for one person.',   inc: ['2 edited finals', 'Online delivery'] },
-      { name: 'Business',  price: 250, from: true,  time: '2 hours',    confirmed: false, desc: 'Team, space, or product photography.',     inc: ['Edited gallery', 'Commercial usage'] },
-      { name: 'Brand',     price: 450, from: true,  time: 'Half day',   confirmed: false, desc: 'A full set of imagery for your brand.',    inc: ['Planned shot list', 'Edited gallery', 'Commercial usage'] }
+      { name: 'Headshot',  price: 90,  from: false, time: '30 minutes', confirmed: true, desc: 'Professional headshots for one person.',   inc: ['2 edited finals', 'Online delivery'] },
+      { name: 'Business',  price: 250, from: true,  time: '2 hours',    confirmed: true, desc: 'Team, space, or product photography.',     inc: ['Edited gallery', 'Commercial usage'] },
+      { name: 'Brand',     price: 450, from: true,  time: 'Half day',   confirmed: true, desc: 'A full set of imagery for your brand.',    inc: ['Planned shot list', 'Edited gallery', 'Commercial usage'] }
     ],
     wedding: [
-      { name: 'Elopement', price: 600,  from: true, time: '2 hours', confirmed: false, desc: 'Intimate ceremonies and small gatherings.', inc: ['Edited gallery', 'Online delivery'] },
-      { name: 'Half Day',  price: 1100, from: true, time: '5 hours', confirmed: false, desc: 'Ceremony, portraits, and the first hours.', inc: ['Edited gallery', 'Online delivery', 'Print release'] },
-      { name: 'Full Day',  price: 1800, from: true, time: '8 hours', confirmed: false, desc: 'From getting ready to the last dance.',     inc: ['Edited gallery', 'Online delivery', 'Print release'] }
+      { name: 'Elopement', price: 150,  from: true, time: '2 hours', confirmed: true, desc: 'Intimate ceremonies and small gatherings.', inc: ['Edited gallery', 'Online delivery'] },
+      { name: 'Half Day',  price: 400, from: true, time: '5 hours', confirmed: true, desc: 'Ceremony, portraits, and the first hours.', inc: ['Edited gallery', 'Online delivery', 'Print release'] },
+      { name: 'Full Day',  price: 600, from: true, time: '8 hours', confirmed: true, desc: 'From getting ready to the last dance.',     inc: ['Edited gallery', 'Online delivery', 'Print release'] }
     ]
   },
 
