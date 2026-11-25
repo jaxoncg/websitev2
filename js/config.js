@@ -32,7 +32,7 @@ window.SITE_CONFIG = {
      Option A (recommended): create a free form at formspree.io and paste
      the form ID (the part after /f/). Option B: leave it '' and the form
      falls back to opening the visitor's email app (mailto).            */
-  form: { formspreeId: '' },
+  form: { formspreeId: 'xqpqwrpd' },
 
   /* ---- 6. SERVICES (image = id from PORTFOLIO below) ---------------- */
   services: [
